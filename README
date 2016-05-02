@@ -1,0 +1,28 @@
+Nume si prenume:      Datcu Andrei Daniel
+Grupa:                315
+Tema:                 Tema 3, Programarea Calculatoarelor
+Tema proiectului:     Tetris
+Versiunea de compilator:            gcc 4.4.5
+Dependente externe:
+                                      libSDL	 (sudo apt-get install libsdl1.2-dev)
+                                      libSDLMixer(sudo apt-get install libsdl-mixer1.2-dev)
+
+===============================================================================
+A) Detalii de implementare, bonusuri implementate:
+Am codificat piesele intr-o matrice 4-dimensionala(cu tot cu rotatii) 
+
+Bonusuri:
+Pause game la apasarea tastei p
+Highscores - salvare in fisier text (se creeaza automat daca nu exista)
+Load/Save Game - salvare in fisier binar
+Sunet - sunet original al clasicului tetris de pe Gameboy
+Ghost Mode - mut o piesa "fantoma" pentru a vedea unde vine cel mai bine piesa
+Shadow Mode - Similiar ghost mode; fac umbra piesei unde ar ajunge daca si-ar pastra coloana curenta (on by default)
+===============================================================================
+B) Feedback organizatoric pentru propunator:
+
+Timp aproximativ de rezolvare:      40 (in ore)
+Gradul de dificultate (1 = simplu)  7.5 (max. 10)
+
+Sugestii, pareri, comentarii, propuneri:
+Pentru a instala dependentele externe apeleaza make install
